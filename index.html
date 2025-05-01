@@ -38,6 +38,32 @@
 		.s1 { text-shadow: 4px 4px 5px black; }
 		.s2 { text-shadow: 2px 2px 2px black; }
 		.s3 { text-shadow: 1px 1px 1px black; }
+		/* 기본 네비게이션 배경 및 텍스트 색상 설정 */
+        .bg-2a2a2a {
+            background-color: #2a2a2a !important;
+        }
+
+        /* 기본 링크 색상 설정 */
+        .bg-2a2a2a .nav-link {
+            color: white !important;
+            transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 효과 */
+        }
+
+        /* 마우스를 올렸을 때 색상이 더 밝아지도록 설정 */
+        .bg-2a2a2a .nav-link:hover {
+            color: #90ee90 !important; /* 연한 회색 */
+        }
+
+		.border-bottom {
+	    color: red !important;
+	    text-decoration: none; /* 기본 밑줄 제거 */
+	    transition: color 0.3s ease-in-out; /* 부드러운 색상 전환 */
+		}
+
+		.border-bottom:hover {
+		    color: darkred !important; /* 마우스 오버 시 진한 빨간색 */
+		}
+
 	</style>
 	<meta charset="utf-8">
 	<title>나비</title>
@@ -46,7 +72,7 @@
 	<meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="https://raw.githubusercontent.com/borinet-dev/img/main/wassub_icon.ico" rel="icon">
+    <link href="https://borinet-dev.github.io/img/wassub_icon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -58,9 +84,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="https://borinet-dev.github.io/css/css/animate/animate.min.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/owl.carousel.css" rel="stylesheet">
-    <link href="https://borinet-dev.github.io/css/css/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/animate/animate.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="https://borinet-dev.github.io/css/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://borinet-dev.github.io/css/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +97,7 @@
 	<link href="https://borinet-dev.github.io/css/css/style3.css" rel="stylesheet">
 </head>
 
-<body>
+<body style="background-color: #2a2a2a;">
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
@@ -79,7 +105,7 @@
     <!-- Spinner End -->
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
+    <nav class="navbar navbar-expand-lg bg-2a2a2a navbar-light sticky-top p-0">
         <a href="https://l2navi.org" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
             <img src="https://raw.githubusercontent.com/borinet-dev/img/main/logo_wassub.png" style="max-width: auto; height: auto;">
         </a>
@@ -108,75 +134,73 @@
 
     <!-- Start -->
 <div id="viewer" class="white viewer_style rd_nav_blk">
-	<div id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
+	<div style="background-color: #2a2a2a; color: white; id="bd_7139_123793" class="bd clear   hover_effect" data-default_style="viewer" data-bdfilestype="" data-bdnavside="N" style="max-width:px">
 	<article>
 		<div class="document_123793_4 xe_content">
 
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);"><img src="https://raw.githubusercontent.com/borinet-dev/FamilyMonth/main/main.png" alt="main.png" width="650" editor_component="image_link" />
+<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);"><img src="https://raw.githubusercontent.com/borinet-dev/newyear/main/main_1.png" alt="main.png" width="650" editor_component="image_link" />
 <br /></span></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);"><br /></span></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-<span style="color: rgb(51, 102, 153);">● 이벤트 기간</span></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">-&nbsp;
-<strong>2024년 5월 3일(금) 07시&nbsp;~ 2024년 5월 14일(화) 오후 10시 까지</strong></div>
-<div style="background-color: rgb(255, 255, 255); box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">&nbsp;</div>
-<div style="font-family: sans-serif; background-color: rgb(255, 255, 255); box-sizing: border-box;">
+<p><br /></p>
+<p style="line-height: 25px; font-family: sans-serif; letter-spacing: -1px; font-size: 20px; font-weight: bold; color: rgb(255, 177, 26); text-shadow: midnightblue 1px 1px 1.2px; border-bottom: 3px solid rgb(255, 177, 26);">이벤트 기간: 5월 5일(월) 07시&nbsp;~ 5월 20일(화) 오후 10시 까지</p>
+<br>
+<br>
 <div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
 	<center><img src="https://raw.githubusercontent.com/borinet-dev/FamilyMonth/main/event_npc.jpg" width="459" height="493" style="height: auto;" editor_component="image_link" /></center></div>
 <div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
 <table border="1" cellpadding="0" cellspacing="0" style="font-family: Tahoma, Geneva, sans-serif; font-size: 12px; line-height: 1.5; border-collapse: collapse; border: none; empty-cells: show; max-width: 100%; width: 880px;">
 	<tbody><tr>
 		<td style="text-align: center;">
-		<span style="color: rgb(204, 102, 0);">* NPC 로아는 주요 마을에 5/3(금) 07시 이후 등장합니다. *</span></td>
+		<span style="color: rgb(204, 102, 0);">* NPC 로아는 주요 마을에 5/5(월) 07시 이후 등장합니다. *</span></td>
 	</tr></tbody>
 </table>
 <div style="box-sizing: border-box;">&nbsp;</div>
+<div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;"><span style="color: rgb(51, 102, 153);"><img src="https://raw.githubusercontent.com/borinet-dev/newyear/main/start_1.png" alt="main.png" width="650" editor_component="image_link" />
 
-<div><span style="font-size: 16px;"><strong><span style="font-family: sans-serif;">ㆍ이벤트 하나</span></strong></span></div></div>
-<div style="box-sizing: border-box;">&nbsp;- 기본 배율이 증가합니다.</div><div style="box-sizing: border-box;">
+<div><span style="font-size: 16px;"><strong><span style="font-family: sans-serif; color: white;">ㆍ이벤트 하나</span></strong></span></div></div>
+<div style="box-sizing: border-box; color: white;">&nbsp;- 기본 배율이 증가합니다.</div><div style="box-sizing: border-box;">
 <img src="https://raw.githubusercontent.com/borinet-dev/FamilyMonth/main/rate.jpg" alt="ff.png" width="467" height="88" editor_component="image_link" />
 <br /><p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 16px;"><strong>ㆍ이벤트 둘</strong></span></p>
-<p style="background-color: rgb(255, 255, 255);">&nbsp;-&nbsp;<strong>루나 구매시&nbsp;<span style="color: rgb(255, 0, 0);">30% 추가로 지급</span>합니다.</strong></p>
-<p>&nbsp; &nbsp;ㄴ EX) 기존 100루나 -&gt;&nbsp;<strong>130루나</strong></p>
-<p style="background-color: rgb(255, 255, 255);">&nbsp;-&nbsp;<strong>아이템 구매시&nbsp;<span style="color:#ff0000;">20% 할인된 금액</span></strong>으로 모십니다.</p>
-<p>&nbsp; &nbsp;ㄴ EX) 기존 5만원 -&gt;&nbsp;<strong>4만원</strong></p>
+<p><span style="font-size: 16px; color: white;"><strong>ㆍ이벤트 둘</strong></span></p>
+<p style=" color: white;">&nbsp;-&nbsp;<strong>루나 구매시&nbsp;<span style="color: rgb(255, 0, 0);">30% 추가로 지급</span>합니다.</strong></p>
+<p style=" color: white;">&nbsp; &nbsp;ㄴ EX) 기존 100루나 -&gt;&nbsp;<strong>130루나</strong></p>
+<p  style=" color: white;">&nbsp;-&nbsp;<strong>아이템 구매시&nbsp;<span style="color:#ff0000;">20% 할인된 금액</span></strong>으로 모십니다.</p>
+<p style=" color: white;">&nbsp; &nbsp;ㄴ EX) 기존 5만원 -&gt;&nbsp;<strong>4만원</strong></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 16px;"><strong>ㆍ이벤트 셋</strong></span></p>
-<p>&nbsp;- 이벤트 기간동안 무기 및 방어구, 액세서리의 강화확률이&nbsp;<span style="color: rgb(255, 0, 0);"><strong>구간별로 10% 증가</strong></span>합니다.</p>
+<p><span style="font-size: 16px;color: white;"><strong>ㆍ이벤트 셋</strong></span></p>
+<p style=" color: white;">&nbsp;- 이벤트 기간동안 무기 및 방어구, 액세서리의 강화확률이&nbsp;<span style="color: rgb(255, 0, 0);"><strong>구간별로 10% 증가</strong></span>합니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 16px;"><strong>ㆍ이벤트 넷</strong></span></p>
-<p>&nbsp;- 3시간에 한번씩&nbsp;<span style="color: rgb(255, 0, 0);"><strong>EXP/SP 부스트 주문서 - 상급</strong></span>&nbsp;3장을 구매할 수 있습니다.</p>
-<p>&nbsp; &nbsp;ㄴ 구매시간은 계정내 모든 캐릭터가 공유합니다.</p>
+<p><span style="font-size: 16px; color: white;"><strong>ㆍ이벤트 넷</strong></span></p>
+<p style=" color: white;">&nbsp;- 3시간에 한번씩&nbsp;<span style="color: rgb(255, 0, 0);"><strong>EXP/SP 부스트 주문서 - 상급</strong></span>&nbsp;3장을 구매할 수 있습니다.</p>
+<p style=" color: white;">&nbsp; &nbsp;ㄴ 구매시간은 계정내 모든 캐릭터가 공유합니다.</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p><span style="font-size: 16px;"><strong>ㆍ이벤트 다섯</strong></span></p>
-<p>&nbsp;- 윷가락을 윷놀이 세트로 교환하여 윷놀이 게임을 할 수 있습니다.</p>
-<p>&nbsp;- 도, 개, 걸, 윳, 모에 따라 상품이 달라집니다!</p><br>
+<p><span style="font-size: 16px; color: white;"><strong>ㆍ이벤트 다섯</strong></span></p>
+<p style=" color: white;">&nbsp;- 윷가락을 윷놀이 세트로 교환하여 윷놀이 게임을 할 수 있습니다.</p>
+<p style=" color: white;">&nbsp;- 도, 개, 걸, 윳, 모에 따라 상품이 달라집니다!</p><br>
 <center><img src="https://raw.githubusercontent.com/borinet-dev/FamilyMonth/main/games.png" alt="games.png" width="649" height="302" editor_component="image_link" /></center>
 <br /><p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><span style="font-size: 16px;"><strong>ㆍ이벤트 여섯</strong></span></p>
-<p>&nbsp;- 로아에게서&nbsp;<span style="color: rgb(204, 0, 0);"><strong>+16 C급/B급&nbsp;무기 및 방어구 교환권</strong></span>을 구매할 수 있습니다.</p>
+<p><span style="font-size: 16px; color: white;"><strong>ㆍ이벤트 여섯</strong></span></p>
+<p style=" color: white;">&nbsp;- 로아에게서&nbsp;<span style="color: rgb(204, 0, 0);"><strong>+16 D급/C급/B급&nbsp;무기 및 방어구 교환권</strong></span>을 구매할 수 있습니다.</p>
 <p>&nbsp;-&nbsp;<span style="color: rgb(255, 0, 0);"><strong>계정당 하나씩만 구매가 가능합니다.</strong></span></p>
-<p>&nbsp;<strong>ㆍ</strong><strong>+16 C급 무기/방어구 교환권: 150루나</strong></p>
-<p>&nbsp;<strong>ㆍ</strong><strong>+16 B급 무기/방어구 교환권: 200루나</strong></p>
+<p style=" color: white;">&nbsp;<strong>ㆍ</strong><strong>+16 D급 무기/방어구 교환권: 100루나</strong></p>
+<p style=" color: white;">&nbsp;<strong>ㆍ</strong><strong>+16 C급 무기/방어구 교환권: 150루나</strong></p>
+<p style=" color: white;">&nbsp;<strong>ㆍ</strong><strong>+16 B급 무기/방어구 교환권: 200루나</strong></p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
-<strong style="font-size: 16px; font-family: sans-serif; color: rgb(0, 0, 0);">ㆍ이벤트 일곱</strong></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
-<span style="font-size: 13px;">&nbsp;- 이벤트 기간 동안 [NPC 로아]를 통하여 [가정의 달 기념 선물 상자 – 이벤트]를 제작할 수 있습니다.</span></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
-<span style="font-size: 13px;">&nbsp; (<strong>계정 및 PC당 1일 1회</strong>&nbsp;/&nbsp;<strong>1차전직 이후 캐릭터</strong>)</span>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; font-size: 18px;">
+<strong style="font-size: 16px; font-family: sans-serif; color: white;">ㆍ이벤트 일곱</strong></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
+<span style="font-size: 13px; color: white;">&nbsp;- 이벤트 기간 동안 [NPC 로아]를 통하여 [가정의 달 기념 선물 상자 – 이벤트]를 제작할 수 있습니다.</span></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
+<span style="font-size: 13px; color: rgb(255, 0, 0)">&nbsp; (<strong>계정 및 PC당 1일 1회</strong>&nbsp;/&nbsp;<strong>1차전직 이후 캐릭터</strong>)</span>
 <span style="box-sizing: border-box; font-weight: 700; letter-spacing: 0px !important;">
 <span style="box-sizing: border-box; color: rgb(246, 246, 246); font-size: 13px; letter-spacing: 0px !important;">&nbsp;</span></span></div>
 
-<table align="left" border="1" cellpadding="0" cellspacing="0" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
+<table align="left" border="1" cellpadding="0" cellspacing="0" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
 <tbody style="box-sizing: border-box; letter-spacing: 0px !important;">
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="113" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; background-color: rgb(51, 102, 153); letter-spacing: 0px !important;">
@@ -197,24 +221,24 @@
 <div class="fe-image-inner" style="box-sizing: border-box; display: inline-block; position: relative; letter-spacing: 0px !important;">
 <span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">
 <img src="https://raw.githubusercontent.com/borinet-dev/FamilyMonth/main/etc_treasure_box_i11.png" class="fe-image" alt="" editor_component="image_link" style="border-style: none; box-sizing: border-box; vertical-align: middle; cursor: pointer; min-width: auto; letter-spacing: 0px !important;" /></span></div></div>
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">가정의 달 기념 선물 상자 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">가정의 달 기념 선물 상자 – 이벤트<br /></span></td>
 <td width="359" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">- 가정의 달을 기념하는 특별한 선물 상자</span><br />
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">- 교환/드롭/개인 상점/판매 대행/상점 판매 불가</span><br />
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">- 2024. 5. 14.(화) 이벤트 종료 시 일괄 삭제</span><br /></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">- 가정의 달을 기념하는 특별한 선물 상자</span><br />
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">- 교환/드롭/개인 상점/판매 대행/상점 판매 불가</span><br />
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">- 5. 13(화) 이벤트 종료 시 일괄 삭제</span><br /></td>
 <td width="129" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">10,000,000 아데나<br /></span></td></tr></tbody></table>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">10,000,000 아데나<br /></span></td></tr></tbody></table>
 
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);"><br /></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);"><br /></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);"><br /></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);"><br /></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);"><br /></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;"><br /></div>
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
 <span style="font-size: 13px;"><br /></span></div>
-<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
-<span style="font-size: 13px;">&nbsp;- [가정의 달 기념 선물 상자 – 이벤트] 사용 시 아래 아이템 중 1종을 정해진 확률에 따라 획득합니다.&nbsp;</span><br /></div>
-<table border="1" cellpadding="0" cellspacing="0" width="100%" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
+<div data-contents-type="text" style="box-sizing: border-box; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
+<span style="font-size: 13px; color: white;">&nbsp;- [가정의 달 기념 선물 상자 – 이벤트] 사용 시 아래 아이템 중 1종을 정해진 확률에 따라 획득합니다.&nbsp;</span><br /></div>
+<table border="1" cellpadding="0" cellspacing="0" width="100%" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
 <tbody style="box-sizing: border-box; letter-spacing: 0px !important;">
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; background-color: rgb(51, 102, 153); letter-spacing: 0px !important;">
@@ -227,107 +251,93 @@
 <span style="box-sizing: border-box; color: rgb(246, 246, 246); letter-spacing: 0px !important;">수량</span></span><br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">딸기&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">마프르의 바람 주문서<br /></span></td>
 <td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">3<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">2<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">망고&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 바람 주문서<br /></span></td>
 <td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">3<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">2<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">체리&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 폭풍 주문서<br /></span></td>
 <td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">3<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">2<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">프레야의 얼음 장미 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 얼음 장미 – 이벤트<br /></span></td>
 <td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">2<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">1<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 드래곤의 속성수(EXP) – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">아르테이아의 신비한 바람 주문서<br /></span></td>
 <td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">2<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">1<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 네비트의 황금 모래시계 – 이벤트<br /></span></td>
-<td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">2<br /></span></td></tr>
-<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
-<td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">딸기&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">마프르의 바람 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">6<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">3<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">망고&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 바람 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">6<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">3<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">체리&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 폭풍 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">6<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">3<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">프레야의 얼음 장미 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 얼음 장미 – 이벤트<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">4<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">2<br /></span></td></tr>
+<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
+<td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">아르테이아의 신비한 바람 주문서<br /></span></td>
+<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">2<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 드래곤의 속성수(EXP) – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">마프르의 바람 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">4<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">5<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 네비트의 황금 모래시계 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 바람 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">4<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">5<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">딸기&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 폭풍 주문서<br /></span></td>
 <td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">10<br /></span></td></tr>
-<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
-<td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">망고&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
-<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">10<br /></span></td></tr>
-<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
-<td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">체리&nbsp;바나나 쉐이크 – 이벤트<br /></span></td>
-<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">10<br /></span></td></tr>
-<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
-<td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">프레야의 얼음 장미 – 이벤트<br /></span></td>
-<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">6<br /></span></td></tr>
-<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
-<td valign="top" width="83%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 드래곤의 속성수(EXP) – 이벤트<br /></span></td>
-<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">6<br /></span></td></tr>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white">5<br /></span></td></tr>
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">빛나는 네비트의 황금 모래시계 – 이벤트<br /></span></td>
-<td width="16%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;"><p><span style="box-sizing: border-box; letter-spacing: 0px !important;">6</span></p>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">프레야의 얼음 장미 – 이벤트<br /></span></td>
+<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">3<br /></span></td></tr>
+<p><span style="box-sizing: border-box; letter-spacing: 0px !important;"></span></p>
+<tr style="box-sizing: border-box; letter-spacing: 0px !important;">
+<td valign="top" width="83%" class="" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">아르테이아의 신비한 바람 주문서<br /></span></td>
+<td width="16%" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">3<br /></span></td></tr>
 <p><span style="box-sizing: border-box; letter-spacing: 0px !important;"></span></p>
 </span></td></tr></tbody></table>
 
 <br>
 <p style="font-family: sans-serif;">
-<span style="background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 0.93); font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; font-size: 18px;"><br /></span></p>
+<span style="color: rgba(0, 0, 0, 0.93); font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; font-size: 18px;"><br /></span></p>
 <div style="font-family: sans-serif; box-sizing: border-box;">
-<p><span style="font-size: 16px;">
+<p><span style="font-size: 16px; color: white;">
 <strong>ㆍ이벤트 여덟</strong></span></p>
 </div>
 <div style="box-sizing: border-box; color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 15px;">
-<span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 13px;">이벤트 기간 모든 몬스터가&nbsp;<strong>카네이션</strong>&nbsp;허브를 드랍합니다.</span></div>
-<table border="0" cellpadding="0" cellspacing="0" width="100%" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px; background-color: rgb(255, 255, 255);">
+<span style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: 13px; color: white;">이벤트 기간 모든 몬스터가&nbsp;<strong>카네이션</strong>&nbsp;허브를 드랍합니다.</span></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%" style="text-wrap: nowrap; font-family: &quot;Noto Sans&quot;, &quot;Noto Sans KR&quot;, -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif; display: block; overflow-x: auto; width: 1081.45px; border: none; border-collapse: collapse; empty-cells: show; max-width: 100%; table-layout: fixed; color: rgba(0, 0, 0, 0.93); font-size: 18px;">
 <tbody style="box-sizing: border-box; letter-spacing: 0px !important;">
 <tr style="box-sizing: border-box; letter-spacing: 0px !important;">
 <td width="232" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; background-color: rgb(51, 102, 153); letter-spacing: 0px !important;">
@@ -344,23 +354,23 @@
 <div class="fe-image-inner" style="box-sizing: border-box; display: inline-block; position: relative; letter-spacing: 0px !important;">
 <span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">
 <img src="https://imgfiles-cdn.plaync.com/file/Lineage2/download/20220503164143-0RD4BILic33oIjrZG9qa0-v4" class="fe-image" alt="" editor_component="image_link" style="border-style: none; box-sizing: border-box; vertical-align: middle; cursor: pointer; min-width: auto; letter-spacing: 0px !important;" /></span></div></div>
-<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;">카네이션<br /></span></td>
+<span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important; color: white;">카네이션<br /></span></td>
 <td width="465" style="box-sizing: border-box; padding: 4px 8px; vertical-align: middle; border: 1px solid rgb(221, 221, 221); position: relative; text-align: center; letter-spacing: 0px !important;">
 <span style="box-sizing: border-box; font-size: 14px; letter-spacing: 0px !important;"><p>
-<span style="box-sizing: border-box; letter-spacing: 0px !important;">5분 동안 사냥을 통해 얻게 되는 경험치와 SP 10%,</span></p>
-<p><span style="box-sizing: border-box; letter-spacing: 0px !important;">물리/마법 (공격력/방어력/공격속도) 5% 증가한다.</span></p>
+<span style="box-sizing: border-box; letter-spacing: 0px !important; color: white;">5분 동안 사냥을 통해 얻게 되는 경험치와 SP 10%,</span></p>
+<p><span style="box-sizing: border-box; letter-spacing: 0px !important; color: white;">물리/마법 (공격력/방어력/공격속도) 5% 증가한다.</span></p>
 </span></td></tr></tbody></table>
 <p style="font-family: sans-serif;"></p>
 <p style="font-family: sans-serif;"></p>
 <p style="font-family: sans-serif;"><br />
-<strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);">※</strong>
-<span style="font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255); color: rgb(158, 147, 147);">&nbsp;</span>
-<strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);">
+<strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px;">※</strong>
+<span style="font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px; color: rgb(158, 147, 147);">&nbsp;</span>
+<strong style="color: rgb(31, 31, 31); font-family: -apple-system, BlinkMacSystemFont, Roboto, &quot;맑은 고딕&quot;, &quot;Malgun Gothic&quot;, &quot;Microsoft JhengHei&quot;, meiryo, &quot;MS PGothic&quot;, 돋움, Dotum, sans-serif; font-size: 12px;">
 <span style="color: rgb(255, 0, 0);">이벤트 아이템은 교환/드롭/파쇄/개인상점/판매대행/상점판매 불가 (계정내 화물 이용 가능)</span></strong><br /></p>
 
 		</div>
 	</div>
-</div></div>
+</div></div><br><br>
    <!-- End -->
         
 
